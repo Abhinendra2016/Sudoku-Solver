@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     solveButton.addEventListener('click', solveSudoku);
 
     const sudokuGrid = document.getElementById("sudoku-grid");
-    // Create the sudoku grid and input cells
+
     for (let row = 0; row < gridSize; row++) {
         const newRow = document.createElement("tr");
         for (let col = 0; col < gridSize; col++) {
@@ -19,3 +19,5 @@ document.addEventListener('DOMContentLoaded', function () {
         sudokuGrid.appendChild(newRow);
     }
 });
+
+
